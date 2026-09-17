@@ -1,0 +1,18 @@
+# Bỏ qua môi trường ảo
+venv/
+ENV/
+env/
+
+# Bỏ qua thư mục build và file .exe thành phẩm
+build/
+dist/
+*.spec
+
+# Bỏ qua bộ nhớ tạm của Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Bỏ qua cài đặt của trình soạn thảo code (VS Code, PyCharm...)
+.vscode/
+.idea/
